@@ -217,22 +217,22 @@ melody = \relative c'' {
 
   \key d \major
   \mark \markup \box \pad-markup #0.5 \sans "D/Bm"
-  <d' fis g b>1^\markup\keys #'(d' fis' g' b')
-  <cis fis g b>1^\markup\keys #'(cis' fis' g' b')
-  <cis e fis a>1^\markup\keys #'(cis' e' fis' a')
-  <b e fis a>1^\markup\keys #'(b e' fis' a')
+  <d fis g b>1^\markup\keys #'(d fis g b)
+  <cis fis g b>1^\markup\keys #'(cis fis g b)
+  <cis e fis a>1^\markup\keys #'(cis e fis a)
+  <b e fis a>1^\markup\keys #'(b, e fis a)
   \break
   \key b \minor
-  <b cis e g>1^\markup\keys #'(b cis' e' g')
-  <ais d e g>1^\markup\keys #'(ais d' e g')
-  <a cis d fis>1^\markup\keys #'(a cis' d' fis')
+  <b cis e g>1^\markup\keys #'(b, cis e g)
+  <ais d e g>1^\markup\keys #'(ais, d e g)
+  <a cis d fis>1^\markup\keys #'(a, cis d fis)
   \break
 
   %  \pageBreak
 
   \key a \major
   \mark \markup \box \pad-markup #0.5 \sans "A/F♯m"
-  <a cis d fis>1^\markup\keys #'(a cis' d' fis')
+  <a' cis d fis>1^\markup\keys #'(a cis' d' fis')
   <gis cis d fis>1^\markup\keys #'(gis cis' d' fis')
   <gis b cis e>1^\markup\keys #'(gis b cis' e')
   <fis b cis e>1^\markup\keys #'(fis b cis' e')
