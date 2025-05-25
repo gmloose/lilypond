@@ -5,7 +5,7 @@
 \header {
   title = "Chord Progressions"
   subtitle = "ii-V-I-IV-vii°-iii-vi"
-  subsubtitle = "( ♭7-9-♭3-5 | 3-13-♭7-9 | 7-9-3-5 | 3-13-7-9 | 7-1-3-♭5 | 3-♯5-7-♭9 | ♭7-9-♭3-5 )"
+  subsubtitle = "( ♭7-9-♭3-5 | 3-13-♭7-9 | 7-9-3-5 | 3-13-7-9 | 7-1-♭3-♭5 | 3-♯5-♭7-♭9 | ♭7-9-♭3-5 )"
   tagline = ##f
 }
 
@@ -32,7 +32,7 @@ chordNames = \chordmode {
   d1:m9
   g:13
   c:maj9
-  f:13
+  f:maj13
   \key a \minor
   b:m7.5-
   e:aug9-
@@ -43,7 +43,7 @@ chordNames = \chordmode {
   a1:m9
   d:13
   g:maj9
-  c:13
+  c:maj13
   \key e \minor
   fis:m7.5-
   b:aug9-
@@ -54,7 +54,7 @@ chordNames = \chordmode {
   e1:m9
   a:13
   d:maj9
-  g:13
+  g:maj13
   \key b \minor
   cis:m7.5-
   fis:aug9-
@@ -65,7 +65,7 @@ chordNames = \chordmode {
   b1:m9
   e:13
   a:maj9
-  d:13
+  d:maj13
   \key fis \minor
   gis:m7.5-
   cis:aug9-
@@ -76,7 +76,7 @@ chordNames = \chordmode {
   fis1:m9
   b:13
   e:maj9
-  a:13
+  a:maj13
   \key cis \minor
   dis:m7.5-
   gis:aug9-
@@ -87,7 +87,7 @@ chordNames = \chordmode {
   cis1:m9
   fis:13
   b:maj9
-  e:13
+  e:maj13
   \key gis \minor
   ais:m7.5-
   dis:aug9-
@@ -98,7 +98,7 @@ chordNames = \chordmode {
   gis1:m9
   cis:13
   fis:maj9
-  b:13
+  b:maj13
   \key dis \minor
   eis:m7.5-
   ais:aug9-
@@ -111,7 +111,7 @@ chordNames = \chordmode {
   as1:m9
   des:13
   ges:maj9
-  ces:13
+  ces:maj13
   \key es \minor
   f:m7.5-
   bes:aug9-
@@ -122,7 +122,7 @@ chordNames = \chordmode {
   es1:m9
   as:13
   des:maj9
-  ges:13
+  ges:maj13
   \key bes \minor
   c:m7.5-
   f:aug9-
@@ -133,7 +133,7 @@ chordNames = \chordmode {
   bes1:m9
   es:13
   as:maj9
-  des:13
+  des:maj13
   \key f \minor
   g:m7.5-
   c:aug9-
@@ -144,7 +144,7 @@ chordNames = \chordmode {
   f1:m9
   bes:13
   es:maj9
-  as:13
+  as:maj13
   \key c \minor
   d:m7.5-
   g:aug9-
@@ -155,7 +155,7 @@ chordNames = \chordmode {
   c1:m9
   f:13
   bes:maj9
-  es:13
+  es:maj13
   \key g \minor
   a:m7.5-
   d:aug9-
@@ -166,7 +166,7 @@ chordNames = \chordmode {
   g1:m9
   c:13
   f:maj9
-  bes:13
+  bes:maj13
   \key d \minor
   e:m7.5-
   a:aug9-
@@ -177,7 +177,7 @@ chordNames = \chordmode {
   d1:m9
   g:13
   c:maj9
-  f:13
+  f:maj13
   \key a \minor
   b:m7.5-
   e:aug9-
