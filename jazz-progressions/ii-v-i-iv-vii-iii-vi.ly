@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-\include "keyboards.ly"
+\include "keyboard.ly"
 
 \header {
   title = "Chord Progressions"
@@ -253,7 +253,7 @@ melody = \relative c'' {
   \key cis \minor
   <cis dis fis a>1^\markup\keys #'(cis dis fis a)
   <bis e fis a>1^\markup\keys #'(c e fis a)
-  <b dis e gis>1^\markup\keys #'(dis e gis)
+  <b dis e gis>1^\markup\keys #'(b, dis e gis)
   \break
 
   \key b \major
@@ -335,7 +335,7 @@ melody = \relative c'' {
   \key c \minor
   <c d f as>1^\markup\keys #'(c d f aes)
   <b es f as>1^\markup\keys #'(ees f aes)
-  <bes d es g>1^\markup\keys #'(d ees g)
+  <bes d es g>1^\markup\keys #'(bes, d ees g)
   \break
 
   \key bes \major
